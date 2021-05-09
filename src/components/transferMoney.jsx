@@ -5,6 +5,7 @@ import TextField from '@material-ui/core/TextField';
 
 
 export default function TransferMoney() {
+
     return (
         <div className='transferMoneyCss'>
             <ReceiverInput />

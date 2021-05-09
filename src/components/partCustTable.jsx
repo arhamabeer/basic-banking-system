@@ -18,7 +18,7 @@ const rows = [
 ];
 
 export default function PartCustTable({ state }) {
-    console.log(state)
+    // console.log(state)
     return (
         <div style={{ height: 400, width: '100%' }}>
             <DataGrid autoHeight={true} rows={state} columns={columns} pageSize={1} />

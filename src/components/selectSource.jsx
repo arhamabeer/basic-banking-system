@@ -16,13 +16,14 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function SelectSource() {
+export default function SelectSource({func}) {
     const classes = useStyles();
     const [source, setSource] = React.useState('');
 
     const handleChange = (event) => {
         setSource(event.target.value);
     };
+    func(source)
 
     return (
         <div>
