@@ -50,6 +50,7 @@ export default function TransferMoney() {
                     placeholder='0'
                     variant="filled"
                 />
+                <Button variant='contained' color='secondary' style={{ width: 200, height: 45, fontSize: 18 }}  >Transfer</Button>
             </div>
         </div>
     )

@@ -6,6 +6,7 @@ import ViewAllCustBar from '../components/viewAllCustHeader'
 import AccountBalance from '../components/accountBalance'
 import Button from '@material-ui/core/Button';
 import PartCustTable from '../components/partCustTable'
+import AddMoney from '../components/addMoney'
 import TransferMoney from '../components/transferMoney'
 
 
@@ -29,7 +30,8 @@ function ParticularCustomers(props) {
                     <Button variant='contained' color='primary' style={{ width: 300, height: 100, fontSize: 25 }}  >Add Money</Button>
                 </div>
                 <div>
-                    <TransferMoney />
+                    {/* <TransferMoney /> */}
+                    <AddMoney />
                 </div>
             </div>
 
